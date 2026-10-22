@@ -1,7 +1,7 @@
 # NetQuest — Teacher-Led Classroom Quiz
 
 NetQuest is a small Computer Networks mini-project for a two-person student team to build, present, and explain. A teacher creates one classroom, students join with a room code, and the teacher controls when questions appear and when answers are revealed.
-
+ci/cd test 
 ## What the app does
 
 1. The teacher opens NetQuest and creates the room.
