@@ -134,3 +134,5 @@ Or use `python -m unittest discover -s tests -v` where `python` is your Python c
 - The room and scores are cleared when the server process stops.
 - The room code is meant for a trusted classroom demo; it is not a security feature.
 - The browser polls the server periodically instead of using WebSockets. That keeps the implementation smaller and easier to explain.
+
+-ci/cd test
