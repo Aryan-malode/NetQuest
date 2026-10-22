@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: netquest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: netquest
+  template:
+    metadata:
+      labels:
+        app: netquest
+    spec:
+      containers:
+        - name: netquest
+          image: aryanmalode/netquest:latest
+          ports:
+            - containerPort: 5000
